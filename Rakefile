@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "enough_with_the_double_render_already"
   gem.homepage = "http://github.com/julik/enough_with_the_double_render_already"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Gets rid of the double render error in Rails}
+  gem.description = %Q{bails out of the controller action on any render, head or redirect_to}
   gem.email = "me@julik.nl"
   gem.authors = ["Julik Tarkhanov"]
   # dependencies defined in Gemfile
